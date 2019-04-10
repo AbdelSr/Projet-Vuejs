@@ -1,18 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    {{result}}
     <Board :list="list"></Board>
   </div>
 </template>
 
 <script>
 import Board from '@/components/Board.vue'
-
+import { getGames } from '@/services/GamesClient.js'
 export default {
   name: 'home',
   components: { Board },
+
   data () {
     return {
+      result: 0,
       list: [
         {
           image: 'scr super image',
@@ -21,6 +23,10 @@ export default {
         }
       ]
     }
+  },
+
+  async mounted () {
+    this.result = await getGames()
   }
 }
 </script>

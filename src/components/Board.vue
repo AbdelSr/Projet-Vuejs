@@ -2,9 +2,9 @@
   <div class="salon">
     <ul v-for="item in list" :key="item.id">
       <div class="game">
-        <span class="image">Image: {{item.image}}</span>
-        <span class="name">Name: {{item.name}}</span>
-        <span class="isActive">actif ?:{{item.isActive}}</span>
+        <span class="image">{{item.image}}</span>
+        <span class="name">Nom: {{item.name}}</span>
+        <span class="isActive">DISPONIBLE{{item.isActive}}</span>
       </div>
     </ul>
   </div>
@@ -17,6 +17,13 @@ export default {
   props: {
     list: {
       type: Array
+    }
+  },
+  method: {
+    isDispo (boolean) {
+      if (boolean) {
+
+      }
     }
   }
 }
