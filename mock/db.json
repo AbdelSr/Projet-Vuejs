@@ -1,55 +1,53 @@
 {
     "games": [
-        [
-            {
-                "_id": "1",
-                "isActive": true,
-                "image": "http://placehold.it/32x32",
-                "name": "Small",
-                "about": "In et qui duis aliquip tempor. Pariatur elit velit labore ex laborum ad voluptate proident do. Officia nisi do cupidatat et nulla laboris. Fugiat cupidatat dolore cillum irure consectetur laborum aliqua non nostrud. Commodo sit esse id anim sunt cupidatat Lorem id. Consectetur laborum laboris ullamco velit consectetur magna. Occaecat excepteur magna consectetur consequat duis consequat id.\r\n"
-            },
-            {
-                "_id": "2",
-                "isActive": true,
-                "image": "http://placehold.it/32x32",
-                "name": "Boone",
-                "about": "Culpa cupidatat qui proident sunt. Ipsum laboris velit voluptate occaecat elit cupidatat elit est elit laboris do non. Laborum amet voluptate non deserunt qui exercitation velit culpa.\r\n"
-            },
-            {
-                "_id": "3",
-                "isActive": true,
-                "image": "http://placehold.it/32x32",
-                "name": "Moreno",
-                "about": "Non dolor magna id esse quis non quis voluptate in do commodo Lorem aute laborum. Proident est dolore ut ipsum aliquip non laboris. Incididunt laborum magna irure do laboris ad amet excepteur aute.\r\n"
-            },
-            {
-                "_id": "4",
-                "isActive": true,
-                "image": "http://placehold.it/32x32",
-                "name": "Cameron",
-                "about": "Do minim enim dolor aute voluptate. Ullamco consequat elit esse duis cillum consectetur mollit sint cillum. Fugiat veniam duis eu exercitation pariatur. Officia et quis ea nostrud aliqua in cupidatat id adipisicing. Cillum irure duis aute non pariatur ipsum veniam amet laboris proident. Magna officia ea mollit Lorem laboris anim non reprehenderit. Deserunt laborum officia irure Lorem ea.\r\n"
-            },
-            {
-                "_id": "5",
-                "isActive": true,
-                "image": "http://placehold.it/32x32",
-                "name": "Hickman",
-                "about": "Minim velit ipsum sint ut minim ullamco consectetur commodo et. Eiusmod amet occaecat nisi anim quis sit excepteur commodo in dolore commodo laboris. Culpa nostrud laborum deserunt minim occaecat pariatur eu quis velit. Commodo adipisicing occaecat non ut nisi enim nulla ipsum ut.\r\n"
-            },
-            {
-                "_id": "6",
-                "isActive": true,
-                "image": "http://placehold.it/32x32",
-                "name": "Conley",
-                "about": "Sit duis reprehenderit ea excepteur ut. Ipsum Lorem do fugiat commodo et fugiat exercitation fugiat. Do est deserunt amet dolore. Ipsum aliquip consequat sint fugiat consequat excepteur. Ea laborum culpa ad anim elit mollit ipsum sint. Dolore exercitation nisi et laboris minim magna consectetur tempor culpa. Aliquip commodo anim dolor sit deserunt.\r\n"
-            },
-            {
-                "_id": "7",
-                "isActive": false,
-                "image": "http://placehold.it/32x32",
-                "name": "Lawson",
-                "about": "Labore elit sint velit ad aliqua culpa anim mollit voluptate aliquip pariatur incididunt occaecat mollit. Aute deserunt aliqua qui culpa excepteur et reprehenderit sit laboris dolor reprehenderit. Aliqua enim labore fugiat et esse ullamco sit. In duis nostrud eiusmod esse aute ex sint tempor. Tempor minim consectetur sit fugiat qui ad voluptate officia amet in pariatur consequat. Amet sint cupidatat nulla do tempor.\r\n"
-            }
-        ]
+        {
+            "_id": "1",
+            "isActive": true,
+            "image": "http://placehold.it/32x32",
+            "name": "Small",
+            "about": "In et qui duis aliquip tempor. Pariatur elit velit labore ex laborum ad voluptate proident do. Officia nisi do cupidatat et nulla laboris. Fugiat cupidatat dolore cillum irure consectetur laborum aliqua non nostrud. Commodo sit esse id anim sunt cupidatat Lorem id. Consectetur laborum laboris ullamco velit consectetur magna. Occaecat excepteur magna consectetur consequat duis consequat id.\r\n"
+        },
+        {
+            "_id": "2",
+            "isActive": true,
+            "image": "http://placehold.it/32x32",
+            "name": "Boone",
+            "about": "Culpa cupidatat qui proident sunt. Ipsum laboris velit voluptate occaecat elit cupidatat elit est elit laboris do non. Laborum amet voluptate non deserunt qui exercitation velit culpa.\r\n"
+        },
+        {
+            "_id": "3",
+            "isActive": true,
+            "image": "http://placehold.it/32x32",
+            "name": "Moreno",
+            "about": "Non dolor magna id esse quis non quis voluptate in do commodo Lorem aute laborum. Proident est dolore ut ipsum aliquip non laboris. Incididunt laborum magna irure do laboris ad amet excepteur aute.\r\n"
+        },
+        {
+            "_id": "4",
+            "isActive": true,
+            "image": "http://placehold.it/32x32",
+            "name": "Cameron",
+            "about": "Do minim enim dolor aute voluptate. Ullamco consequat elit esse duis cillum consectetur mollit sint cillum. Fugiat veniam duis eu exercitation pariatur. Officia et quis ea nostrud aliqua in cupidatat id adipisicing. Cillum irure duis aute non pariatur ipsum veniam amet laboris proident. Magna officia ea mollit Lorem laboris anim non reprehenderit. Deserunt laborum officia irure Lorem ea.\r\n"
+        },
+        {
+            "_id": "5",
+            "isActive": true,
+            "image": "http://placehold.it/32x32",
+            "name": "Hickman",
+            "about": "Minim velit ipsum sint ut minim ullamco consectetur commodo et. Eiusmod amet occaecat nisi anim quis sit excepteur commodo in dolore commodo laboris. Culpa nostrud laborum deserunt minim occaecat pariatur eu quis velit. Commodo adipisicing occaecat non ut nisi enim nulla ipsum ut.\r\n"
+        },
+        {
+            "_id": "6",
+            "isActive": true,
+            "image": "http://placehold.it/32x32",
+            "name": "Conley",
+            "about": "Sit duis reprehenderit ea excepteur ut. Ipsum Lorem do fugiat commodo et fugiat exercitation fugiat. Do est deserunt amet dolore. Ipsum aliquip consequat sint fugiat consequat excepteur. Ea laborum culpa ad anim elit mollit ipsum sint. Dolore exercitation nisi et laboris minim magna consectetur tempor culpa. Aliquip commodo anim dolor sit deserunt.\r\n"
+        },
+        {
+            "_id": "7",
+            "isActive": false,
+            "image": "http://placehold.it/32x32",
+            "name": "Lawson",
+            "about": "Labore elit sint velit ad aliqua culpa anim mollit voluptate aliquip pariatur incididunt occaecat mollit. Aute deserunt aliqua qui culpa excepteur et reprehenderit sit laboris dolor reprehenderit. Aliqua enim labore fugiat et esse ullamco sit. In duis nostrud eiusmod esse aute ex sint tempor. Tempor minim consectetur sit fugiat qui ad voluptate officia amet in pariatur consequat. Amet sint cupidatat nulla do tempor.\r\n"
+        }
     ]
 }
