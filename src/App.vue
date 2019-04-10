@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
@@ -10,7 +10,7 @@
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -25,5 +25,37 @@
       color: #42b983;
     }
   }
+}
+
+.salon {
+  width: 80vw;
+  border: 5px solid orange;
+  border-radius: 30px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.game {
+  border: red 3px solid;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+}
+.image {
+  width: 100%;
+  height: 150px;
+  border-block-end: orange 2px solid;
+}
+.name {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+}
+.isActive {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  color: red;
+  margin-top: 200px;
 }
 </style>
