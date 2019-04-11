@@ -22,7 +22,6 @@ export default {
   method: {
     isDispo (boolean) {
       if (boolean) {
-
       }
     }
   }

@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    {{result}}
-    <Board :list="list"></Board>
+    <Board :list="result"></Board>
   </div>
 </template>
 
@@ -14,14 +13,7 @@ export default {
 
   data () {
     return {
-      result: 0,
-      list: [
-        {
-          image: 'scr super image',
-          name: 'premier jeu',
-          isActive: true
-        }
-      ]
+      result: 0
     }
   },
 
