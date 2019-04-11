@@ -67,11 +67,11 @@
   width: 450px;
   height: 300px;
   transform: scale(1);
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .game:hover {
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
 .image {
