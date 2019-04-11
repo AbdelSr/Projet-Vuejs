@@ -1,23 +1,36 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>|
+      <router-link to="/">Casino</router-link>|
       <router-link to="/about">About</router-link>
+      <div id="imglucas"></div>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+#imglucas {
+  width: 60%;
+  height: 200px;
+  background-image: url("../image/lucasinho.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: black;
 }
 #nav {
-  padding: 30px;
+  padding-top: 20px;
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -28,34 +41,43 @@
 }
 
 .salon {
-  width: 80vw;
-  border: 5px solid orange;
-  border-radius: 30px;
-  margin: auto;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .game {
-  border: red 3px solid;
-  border-radius: 30px;
+  border: rgb(172, 94, 80) 1px solid;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #412221, #130707);
+  box-shadow: 12px 12px 19px rgb(80, 37, 37);
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 500px;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 30px;
+  width: 450px;
+  height: 300px;
+}
+
+.game:hover {
+  box-shadow: 0px 0px 30px rgb(109, 60, 60);
+  width: 450px;
+  height: 305px;
 }
 .image {
   width: 100%;
-  height: 150px;
-  border-block-end: orange 2px solid;
+  height: 80%;
+  border-block-end: rgb(172, 94, 80) 2px solid;
 }
 .name {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 3rem;
+  font-size: 20px;
+  color: #42b983;
 }
 .isActive {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  color: red;
-  margin-top: 200px;
+  color: rgb(126, 110, 110);
 }
 </style>
