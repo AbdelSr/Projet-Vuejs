@@ -2,12 +2,7 @@
 .salon {
   width: 100%;
   height: 100%;
-  background-image: url("https://www.saint-brevin.com/medias/images/prestataires/casino-hotel-spa-st-brevin-ocean1-2080.jpg");
-  background-repeat: no-repeat;
-  background-size: 200%;
-  border-radius: 30px;
   background-position: center;
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -16,9 +16,12 @@
   background-image: url("../image/lucasinho.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  border-radius: 30%;
+  box-shadow: 12px 12px 19px rgb(31, 26, 26);
   background-position: top;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
 }
 
 #app {
@@ -28,6 +31,10 @@
   text-align: center;
   color: #2c3e50;
   background-color: black;
+  background-image: url("https://www.saint-brevin.com/medias/images/prestataires/casino-hotel-spa-st-brevin-ocean1-2080.jpg");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  border-radius: 30px;
 }
 #nav {
   padding-top: 20px;
@@ -51,7 +58,7 @@
   border: rgb(172, 94, 80) 1px solid;
   border-radius: 10px;
   background-image: linear-gradient(to bottom right, #412221, #130707);
-  box-shadow: 12px 12px 19px rgb(80, 37, 37);
+  box-shadow: 12px 12px 19px rgb(31, 26, 26);
   display: flex;
   flex-direction: column;
   margin-right: 70px;
@@ -62,7 +69,7 @@
 }
 
 .game:hover {
-  box-shadow: 0px 0px 30px rgb(109, 60, 60);
+  box-shadow: 12px 12px 49px rgb(31, 26, 26);
   width: 450px;
   height: 305px;
 }
