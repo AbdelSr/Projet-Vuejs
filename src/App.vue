@@ -82,10 +82,15 @@
 .name {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  text-shadow: 3px 3px 4px rgb(111, 143, 132);
   color: #42b983;
 }
 .isActive {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   color: rgb(126, 110, 110);
+}
+
+a:link {
+  text-decoration: none;
 }
 </style>

@@ -16,15 +16,17 @@ img {
 
 <template>
   <div class="salon">
-    <ul v-for="item in list" :key="item.id">
-      <div class="game">
-        <span class="image">
-          <img v-bind:src="item.image">
-        </span>
-        <span class="name">{{item.name}}</span>
-        <span v-if="item.isActive" class="isActive">Disponible !</span>
-        <span v-else class="isActive">Indisponible 😢 ...Mais arrive bientôt !!</span>
-      </div>
+    <ul v-for="game in list" :key="game.id">
+      <router-link :to="{ name: 'info', params: { game } }">
+        <div class="game">
+          <span class="image">
+            <img v-bind:src="game.image">
+          </span>
+          <span class="name">{{game.name}}</span>
+          <span v-if="game.isActive" class="isActive">Disponible !</span>
+          <span v-else class="isActive">Indisponible 😢 ...Mais arrive bientôt !!</span>
+        </div>
+      </router-link>|
     </ul>
   </div>
 </template>
@@ -37,14 +39,6 @@ export default {
     list: {
       type: Array
     }
-  },
-  method: {
-    isDispo (boolean) {
-      if (boolean) {
-      }
-    },
-
-    getImgUrl () {}
   }
 }
 </script>
