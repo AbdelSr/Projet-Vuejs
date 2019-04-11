@@ -66,13 +66,14 @@
   margin-top: 30px;
   width: 450px;
   height: 300px;
+  transform: scale(1);
+  transition: .3s ease-in-out;
 }
 
 .game:hover {
-  box-shadow: 12px 12px 49px rgb(31, 26, 26);
-  width: 450px;
-  height: 305px;
+  transform: scale(1.10);
 }
+
 .image {
   width: 100%;
   height: 80%;

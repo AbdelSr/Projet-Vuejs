@@ -9,7 +9,7 @@
 }
 
 img {
-  width: 100% ;
+  width: 100%;
   height: 100%;
 }
 </style>
@@ -18,14 +18,12 @@ img {
   <div class="salon">
     <ul v-for="item in list" :key="item.id">
       <div class="game">
-
         <span class="image">
-            <img v-bind:src="item.image" />
+          <img v-bind:src="item.image">
         </span>
         <span class="name">{{item.name}}</span>
         <span v-if="item.isActive" class="isActive">Disponible !</span>
         <span v-else class="isActive">Indisponible 😢 ...Mais arrive bientôt !!</span>
-
       </div>
     </ul>
   </div>
@@ -46,9 +44,7 @@ export default {
       }
     },
 
-    getImgUrl () {
-
-    }
+    getImgUrl () {}
   }
 }
 </script>
