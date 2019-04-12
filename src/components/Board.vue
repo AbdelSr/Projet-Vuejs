@@ -16,7 +16,7 @@ img {
 
 <template>
   <div class="salon">
-    <ul v-for="game in list" :key="game.id">
+    <ul v-for="game in list" :key="game._id">
       <router-link :to="{ name: 'info', params: { game } }">
         <div class="game">
           <span class="image">
